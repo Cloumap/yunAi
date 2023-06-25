@@ -1,6 +1,8 @@
+//以下全部出自网络和大佬资源，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途]
+//本接口无公众号、无盈利、无引流、免费分享给小白使用，请勿轻信他人，谨防上当受骗。
 {
     "友情提醒": "接口完全免费，切勿付费购买。",
-    "spider": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar;md5;09BAF4A03D362D96F0FC14085C343191",
+    "spider": "https://gitee.com/cloumap/jinli/raw/CooLAi/CoolAi.jar;md5;6B685AF783259513BC64B2C9DE1C2B8A",
     "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
     "sites": [
         {
@@ -139,6 +141,16 @@
             "ext": "http://124.222.175.111:89/api.php/app/"
         },
         {
+            "key": "落叶",
+            "name": "🍁落叶",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://xn--yeta099v.online:66/api.php/app/"
+        },
+        {
             "key": "csp_Cokemv",
             "name": "🥤可乐",
             "type": 3,
@@ -243,13 +255,15 @@
             "ext": "https://www.555dyy1.com"
         },
         {
-            "key": "csp_DuoX",
-            "name": "🎛多线",
+            "key": "Dovx",
+            "name": "🎛七夜",
             "type": 3,
-            "api": "csp_DuoX",
+            "api": "csp_Dovx",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 0,
+            "changeable": 0,
+            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto"
         },
         {
             "key": "csp_Anime1",
@@ -341,6 +355,79 @@
             "ext": "https://tvbox.cainisi.cf/json/XBPQ/看一看影视.json"
         },
         {
+            "key": "csp_jbb",
+            "name": "🦢┃剧白┃影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://bitbucket.org/xduo/json/raw/master/剧白白.json"
+        },
+        {
+            "key": "csp_非凡资源",
+            "name": "🥗┃非凡┃资源",
+            "type": 1,
+            "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
+            "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "科幻片",
+                "恐怖片",
+                "爱情片",
+                "剧情片",
+                "战争片",
+                "记录片",
+                "国产剧",
+                "欧美剧",
+                "香港剧",
+                "韩国剧",
+                "台湾剧",
+                "日本剧",
+                "海外剧",
+                "泰国剧",
+                "国产动漫",
+                "日韩动漫",
+                "欧美动漫",
+                "港台动漫",
+                "海外动漫",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺"
+            ]
+        },
+        {
+            "key": "量子资源",
+            "name": "🥑┃量子┃资源",
+            "type": 1,
+            "api": "http://cj.lziapi.com/api.php/provide/vod/",
+            "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "categories": [
+                "国产剧",
+                "国产动漫",
+                "泰国剧",
+                "台湾剧",
+                "香港剧",
+                "欧美剧",
+                "韩国剧",
+                "日本剧",
+                "动漫",
+                "体育",
+                "剧情片",
+                "动作片",
+                "爱情片",
+                "喜剧片"
+            ]
+        },
+        {
             "key": "TVB云播",
             "name": "🍙TVB",
             "type": 3,
@@ -398,7 +485,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "https://gitee.com/cloumap/jinli/raw/CooLAi/JinU/%E5%AD%A6%E4%B9%A0%E5%9B%AD%E5%9C%B0.json"
+            "ext": "https://gitee.com/cloumap/jinli/raw/CooLAi/JinU/BliJC.json"
         },
         {
             "key": "软件",
@@ -408,7 +495,8 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "https://gitee.com/cloumap/jinli/raw/CooLAi/JinU/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B.json"
+            "ext": "https://gitee.com/cloumap/jinli/raw/CooLAi/JinU/BliXX.json
+"
         },
         {
             "key": "csp_LocalFile",
