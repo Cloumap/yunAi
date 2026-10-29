@@ -1,15 +1,5 @@
-{
-  "logo": "https://gitee.com/cloumap/jinli/raw/CooLAi/JinU/yf.gif",
-  "lives": [
-    {
-      "name": "live",
-      "type": 0,
-      "url": "https://gitee.com/cloumap/jinli/raw/CooLAi/CooL.m3u",
-      "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-    }
-  ],
-  "spider": "./jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe",
+  {
+    "spider": "./jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe",
   "wallpaper": "https://gh-proxy.com/raw.githubusercontent.com//Cloumap/yunAi/main/PHG/img.png",
   "sites": [
     {
@@ -118,6 +108,16 @@
       "api": "csp_Local",
       "searchable": 0,
       "changeable": 0
+    }
+  ],
+      "logo": "https://gitee.com/cloumap/jinli/raw/CooLAi/JinU/yf.gif",
+  "lives": [
+    {
+      "name": "live",
+      "type": 0,
+      "url": "https://gitee.com/cloumap/jinli/raw/CooLAi/CooL.m3u",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
     }
   ],
   "doh": [
